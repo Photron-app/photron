@@ -1,0 +1,21 @@
+:root { /* Light */
+    --primary-color: #ffffff;
+    --secondary-color: #e1e1e1;
+    --background-color: #e2e1e1;
+    --text-color: #121212;
+    --muted-text-color: #acacac;
+  }
+
+.dark {
+    --primary-color: #0c0c0c;
+    --secondary-color: #0e0e0e;
+    --background-color: #101010;
+    --text-color: #FFFFFF;
+    --muted-text-color: #4e4e4e;
+}
+  
+.ocean {
+    --primary-color: #0077B6;
+    --secondary-color: #90E0EF;
+    --background-color: #CAF0F8;
+}
