@@ -6,5 +6,6 @@ export default interface ITitleComponentProps {
     icon?: ReactNode
     bottomMarginClass?: String
     topMarginClass?: String
+    children?: ReactNode
   }
   

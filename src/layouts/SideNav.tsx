@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function SideNav() {
 
   return (
-    <div className="bg-secondary text-text w-48 shadow-lg">
+    <div className="bg-secondary text-text min-w-48 w-48 shadow-lg">
       <div className="p-6 text-2xl font-bold text-center border-b">
         My App
       </div>
@@ -16,10 +16,10 @@ export default function SideNav() {
           Home
         </Link>
         <Link
-          to="/settings"
+          to="/keys"
           className="block py-2 px-4 hover:bg-gray-700 transition"
         >
-          Settings
+          Keys
         </Link>
         <Link
           to="/about"
